@@ -55,7 +55,7 @@ public class Tripadvisor_Repository {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  driver.get("https://www.tripadvisor.in/");	  
 		  	driver.manage().window().maximize();	  	 
-		  	Tripadvisor_Repository.capturescreenshot(driver);
+		  	//Tripadvisor_Repository.capturescreenshot(driver);
 		  	Thread.sleep(2000);
 		  	System.out.println(driver.getCurrentUrl());		
 		  	System.out.println(driver.getTitle());	
@@ -88,7 +88,7 @@ public class Tripadvisor_Repository {
   		 System.out.println("Test case failed,Flight link has not clicked please recheck once");
   	    }
   	     
-  	   Tripadvisor_Repository.capturescreenshot(driver);
+  	  // Tripadvisor_Repository.capturescreenshot(driver);
 	    }
 	
     public void onewaylink() throws InterruptedException{
@@ -131,7 +131,7 @@ public class Tripadvisor_Repository {
     		driver.findElement(By.xpath("//*[@id='taplc_trip_search_home_flights_0']/div[2]/div/span/div[2]/div/div[1]/div/div[1]/input[2]")).sendKeys("Hyderaba");
     	}
     	;
-       	Tripadvisor_Repository.capturescreenshot(driver);
+       //	Tripadvisor_Repository.capturescreenshot(driver);
        	Thread.sleep(3000);
        	destination.sendKeys(Keys.ENTER);
     }
