@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="IE(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.Tripadvisor.Flight_booking.Testexecution">
+        <methods>
+          <include name="browsertoquit"/>
+          <include name="browsertoquit"/>
+          <include name="ticketbooking"/>
+          <include name="launchbrowser"/>
+          <include name="EnterURL"/>
+          <include name="launchbrowser"/>
+          <include name="EnterURL"/>
+          <include name="aftermethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.Tripadvisor.Flight_booking.Testexecution -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
