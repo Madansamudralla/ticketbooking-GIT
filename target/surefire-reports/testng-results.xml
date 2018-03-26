@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50848" started-at="2018-03-23T12:36:13Z" finished-at="2018-03-23T12:37:04Z">
+  <suite name="Suite" duration-ms="48028" started-at="2018-03-26T07:08:01Z" finished-at="2018-03-26T07:08:49Z">
     <groups>
     </groups>
-    <test name="IE" duration-ms="36040" started-at="2018-03-23T12:36:13Z" finished-at="2018-03-23T12:36:49Z">
+    <test name="IE" duration-ms="36000" started-at="2018-03-26T07:08:01Z" finished-at="2018-03-26T07:08:37Z">
       <class name="com.Tripadvisor.Flight_booking.Testexecution">
-        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="launchbrowser" is-config="true" duration-ms="3444" started-at="2018-03-23T18:06:13Z" finished-at="2018-03-23T18:06:16Z">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="launchbrowser" is-config="true" duration-ms="3478" started-at="2018-03-26T12:38:01Z" finished-at="2018-03-26T12:38:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="EnterURL()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="EnterURL" is-config="true" duration-ms="3857" started-at="2018-03-23T18:06:16Z" finished-at="2018-03-23T18:06:20Z">
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="EnterURL" is-config="true" duration-ms="3442" started-at="2018-03-26T12:38:04Z" finished-at="2018-03-26T12:38:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterURL -->
-        <test-method status="PASS" signature="ticketbooking()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="ticketbooking" duration-ms="22675" started-at="2018-03-23T18:06:20Z" description="flightticket booking" finished-at="2018-03-23T18:06:43Z">
+        <test-method status="PASS" signature="ticketbooking()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="ticketbooking" duration-ms="22008" started-at="2018-03-26T12:38:08Z" description="flightticket booking" finished-at="2018-03-26T12:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ticketbooking -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-03-23T18:06:43Z" finished-at="2018-03-23T18:06:43Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-03-26T12:38:30Z" finished-at="2018-03-26T12:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="browsertoquit()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="browsertoquit" is-config="true" duration-ms="6035" started-at="2018-03-23T18:06:43Z" finished-at="2018-03-23T18:06:49Z">
+        <test-method status="PASS" signature="browsertoquit()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@2d3fcdbd]" name="browsertoquit" is-config="true" duration-ms="7054" started-at="2018-03-26T12:38:30Z" finished-at="2018-03-26T12:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsertoquit -->
       </class> <!-- com.Tripadvisor.Flight_booking.Testexecution -->
     </test> <!-- IE -->
-    <test name="chrome" duration-ms="50848" started-at="2018-03-23T12:36:13Z" finished-at="2018-03-23T12:37:04Z">
+    <test name="chrome" duration-ms="48028" started-at="2018-03-26T07:08:01Z" finished-at="2018-03-26T07:08:49Z">
       <class name="com.Tripadvisor.Flight_booking.Testexecution">
-        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="launchbrowser" is-config="true" duration-ms="4061" started-at="2018-03-23T18:06:13Z" finished-at="2018-03-23T18:06:17Z">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="launchbrowser" is-config="true" duration-ms="4270" started-at="2018-03-26T12:38:01Z" finished-at="2018-03-26T12:38:05Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +49,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="EnterURL()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="EnterURL" is-config="true" duration-ms="7704" started-at="2018-03-23T18:06:17Z" finished-at="2018-03-23T18:06:25Z">
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="EnterURL" is-config="true" duration-ms="5692" started-at="2018-03-26T12:38:05Z" finished-at="2018-03-26T12:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterURL -->
-        <test-method status="PASS" signature="ticketbooking()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="ticketbooking" duration-ms="35325" started-at="2018-03-23T18:06:25Z" description="flightticket booking" finished-at="2018-03-23T18:07:00Z">
+        <test-method status="PASS" signature="ticketbooking()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="ticketbooking" duration-ms="33828" started-at="2018-03-26T12:38:11Z" description="flightticket booking" finished-at="2018-03-26T12:38:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ticketbooking -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-03-23T18:07:00Z" finished-at="2018-03-23T18:07:00Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-03-26T12:38:45Z" finished-at="2018-03-26T12:38:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="browsertoquit()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="browsertoquit" is-config="true" duration-ms="3741" started-at="2018-03-23T18:07:00Z" finished-at="2018-03-23T18:07:04Z">
+        <test-method status="PASS" signature="browsertoquit()[pri:0, instance:com.Tripadvisor.Flight_booking.Testexecution@42d3bd8b]" name="browsertoquit" is-config="true" duration-ms="4224" started-at="2018-03-26T12:38:45Z" finished-at="2018-03-26T12:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsertoquit -->

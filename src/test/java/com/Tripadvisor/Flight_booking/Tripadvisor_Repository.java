@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -112,9 +113,10 @@ public class Tripadvisor_Repository {
     	WebElement origin = driver.findElement(Locators.Origin);
     	origin.clear();
     	Thread.sleep(2000);
-    	origin.click();
+    	//origin.click();
     	origin.sendKeys(Testdata.originName);
-    	Thread.sleep(2000);    	
+    	Thread.sleep(2000);  
+    	origin.sendKeys(Keys.ENTER);
     }
     
     public void destinationlocation() throws InterruptedException{
@@ -122,9 +124,17 @@ public class Tripadvisor_Repository {
     	destination.clear();
     	Thread.sleep(2000);
     	destination.click();
-    	destination.sendKeys(Testdata.DestinationName);
+    	try{
+    		destination.sendKeys(Testdata.DestinationName);
+    		
+    	}
+    	catch(Exception e){
+    		driver.findElement(By.xpath("//*[@id='taplc_trip_search_home_flights_0']/div[2]/div/span/div[2]/div/div[1]/div/div[1]/input[2]")).sendKeys("Hyderaba");
+    	}
+    	;
        	Tripadvisor_Repository.capturescreenshot(driver);
-       	Thread.sleep(4000);
+       	Thread.sleep(3000);
+       	destination.sendKeys(Keys.ENTER);
     }
     
     public void dateselection() throws InterruptedException{

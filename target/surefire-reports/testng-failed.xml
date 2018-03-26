@@ -2,12 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="ie"/>
-  <test name="IE(failed)" parallel="tests">
-    <parameter name="browser" value="ie"/>
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="com.Tripadvisor.Flight_booking.Testexecution">
         <methods>
-          <include name="browsertoquit"/>
           <include name="browsertoquit"/>
           <include name="ticketbooking"/>
           <include name="launchbrowser"/>
@@ -15,9 +14,8 @@
           <include name="launchbrowser"/>
           <include name="EnterURL"/>
           <include name="aftermethod"/>
-          <include name="aftermethod"/>
         </methods>
       </class> <!-- com.Tripadvisor.Flight_booking.Testexecution -->
     </classes>
-  </test> <!-- IE(failed) -->
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
