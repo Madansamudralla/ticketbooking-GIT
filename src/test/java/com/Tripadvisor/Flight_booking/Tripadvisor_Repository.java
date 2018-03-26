@@ -3,7 +3,6 @@ package com.Tripadvisor.Flight_booking;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -152,7 +151,7 @@ public class Tripadvisor_Repository {
     	driver.findElement(Locators.flightsearchbutton).click();
     }
 
-  	public static void capturescreenshot(WebDriver driver ){
+  	/*public static void capturescreenshot(WebDriver driver ){
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
@@ -164,7 +163,7 @@ public class Tripadvisor_Repository {
 			System.out.println("Please check");
 		}
   	
-  	}
+  	}*/
   	
 	
 	
